@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Blog</title>
 </head>
 <body class="container mt-5">
+  <h1 class="m-5 text-center"> Blog Hero </h1>
     <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -31,7 +32,9 @@
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <p>Local Storage stores data on browser. It stays saved even if the browser is closed. <br>
+              Session Storage saves data for 1 session only. It removes saved data if the browser is closed <br>
+              Cookies are sent by server. It helps website to remember about user. The connection gets closed if the computer is shut down</p>
             </div>
           </div>
         </div>
@@ -43,31 +46,31 @@
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <p>Event Loop monitors Callstack and Callback queue. Javascript is single threaded, but it helps execute multiple threads. It keeps on checking whether the call stack is empty or not. If it is empty, new functions are added from the event queue. If it is not, then the current function call is processed.  </p>
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              How quizTimer() function works ?
+            <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              How quizTimer() works ?
             </button>
           </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              <p> The quizTimer() function handles timer. First it takes a parameter named 'dismiss' then it checks the dismiss parameter is truthy or falsy. If its truthy it calls clearInterval function on timer and returns. Then timer function executes</p>
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header">
-            <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
               How chooseQuiz() function works ?
             </button>
           </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              The chooseQuiz() function chooses quiz. It takes two parameters. Then it runs find() in answers array and put it in isExist variable. Then it checks the quiz id to isExist id. if the id matches, it splices the answers array, breaks and then increase the serial by 1. Else  it adds some items in answers array. Then it calls the displayAnswers function with answers parameter.
             </div>
           </div>
         </div>
