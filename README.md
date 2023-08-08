@@ -3,5 +3,6 @@
 
 ## Technologies Used:
 * HTML
-* CSS
+* Tailwind CSS
 * JavaScript
+* Fontawesome
