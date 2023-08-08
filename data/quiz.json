@@ -2,7 +2,12 @@
   {
     "id": 1,
     "question": "What is the largest planet in our solar system?",
-    "options": ["Mars", "Jupiter", "Venus", "Saturn"],
+    "options": [
+      "Mars",
+      "Jupiter",
+      "Venus",
+      "Saturn"
+    ],
     "answer": "Jupiter",
     "description": "Jupiter is the largest planet in our solar system, with a diameter of 139,822 kilometers. It is a gas giant and has a large number of moons."
   },
@@ -45,7 +50,12 @@
   {
     "id": 5,
     "question": "Which programming language is commonly used for building web applications?",
-    "options": ["Java", "Python", "JavaScript", "C++"],
+    "options": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "C++"
+    ],
     "answer": "JavaScript",
     "description": "JavaScript is a programming language commonly used for building web applications, particularly for front-end web development. It is used to add interactivity, animations, and dynamic behavior to web pages."
   },
@@ -61,7 +71,7 @@
     "answer": "A function that has access to variables in its outer scope.",
     "description": "A closure in JavaScript is a powerful and unique feature of the language that allows for the creation of functions that have access to variables outside of their own scope, even after the outer function has returned."
   },
-    {
+  {
     "id": 7,
     "question": "What is HTTP in programming?",
     "options": [
@@ -85,7 +95,7 @@
     "answer": "A paradigm that models concepts as \"objects\" with attributes and methods",
     "description": "Object-oriented programming (OOP) is a programming paradigm that structures code around the concept of \"objects,\" which are instances of classes. These objects have attributes (properties) and methods (functions) that define their behavior and interactions, promoting modular and organized code."
   },
-   {
+  {
     "id": 9,
     "question": "What is React?",
     "options": [
@@ -120,5 +130,5 @@
     ],
     "answer": "A JavaScript syntax extension for describing UI elements",
     "description": "JSX (JavaScript XML) is a syntax extension used with React that allows developers to write HTML-like code in JavaScript. It simplifies the creation of UI components and their structure."
-  },
+  }
 ]
