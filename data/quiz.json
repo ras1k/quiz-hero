@@ -60,5 +60,65 @@
     ],
     "answer": "A function that has access to variables in its outer scope.",
     "description": "A closure in JavaScript is a powerful and unique feature of the language that allows for the creation of functions that have access to variables outside of their own scope, even after the outer function has returned."
-  }
+  },
+    {
+    "id": 7,
+    "question": "What is HTTP in programming?",
+    "options": [
+      "A type of loop",
+      "A set of rules for communication",
+      "A version control system",
+      "A protocol for transferring data over the web"
+    ],
+    "answer": "A protocol for transferring data over the web",
+    "description": "HTTP (Hypertext Transfer Protocol) is a protocol used for transferring data over the internet. It enables communication between a client (usually a web browser) and a server to request and receive web resources such as HTML pages, images, and more."
+  },
+  {
+    "id": 8,
+    "question": "What is object-oriented programming (OOP)?",
+    "options": [
+      "A way to format text",
+      "A programming language",
+      "A paradigm that models concepts as \"objects\" with attributes and methods",
+      "A set of rules for communication"
+    ],
+    "answer": "A paradigm that models concepts as \"objects\" with attributes and methods",
+    "description": "Object-oriented programming (OOP) is a programming paradigm that structures code around the concept of \"objects,\" which are instances of classes. These objects have attributes (properties) and methods (functions) that define their behavior and interactions, promoting modular and organized code."
+  },
+   {
+    "id": 9,
+    "question": "What is React?",
+    "options": [
+      "A programming language",
+      "A JavaScript framework",
+      "A user interface library",
+      "A version control system"
+    ],
+    "answer": "A user interface library",
+    "description": "React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and efficiently manage the rendering of UI elements."
+  },
+  {
+    "id": 10,
+    "question": "Which concept in React is responsible for managing a component's internal state?",
+    "options": [
+      "Props",
+      "State",
+      "Lifecycle methods",
+      "Hooks"
+    ],
+    "answer": "State",
+    "description": "State in React refers to the internal data that a component can hold and manage. It allows components to maintain and update their own data without affecting other components."
+  },
+  {
+    "id": 11,
+    "question": "What is JSX in React?",
+    "options": [
+      "A file format used for data storage",
+      "A programming language",
+      "A JavaScript syntax extension for describing UI elements",
+      "A version control system"
+    ],
+    "answer": "A JavaScript syntax extension for describing UI elements",
+    "description": "JSX (JavaScript XML) is a syntax extension used with React that allows developers to write HTML-like code in JavaScript. It simplifies the creation of UI components and their structure."
+  },
 ]
