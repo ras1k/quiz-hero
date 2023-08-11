@@ -1,5 +1,5 @@
 # quiz-hero
-## live Link: [Live Link](https://ras1k.github.io/quiz-hero/)
+## live Link: [Live Link](https://quiz-hero-javascript.netlify.app/)
 
 ## Technologies Used:
 * HTML
